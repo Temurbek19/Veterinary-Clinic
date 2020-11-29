@@ -956,6 +956,15 @@ h1, h2, h3, h4, h5, h6, p {
     height: 77px;
     object-fit: contain;
     margin-top: -15px;
+    cursor: pointer;
+}
+
+.footer_block img:hover {
+    opacity: 0.8;
+}
+
+.footer_block img:active {
+    opacity: 0.6;
 }
 
 .footer_link1, .footer_link2 {
